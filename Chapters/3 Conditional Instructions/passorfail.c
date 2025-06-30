@@ -55,8 +55,7 @@ int main()
 
 
 
-
-// GPT code Waaaaaay better 
+// ...................................................................// GPT code Waaaaaay better 
 
 //  Improvements Made:
 // ✅ Moved agg calculation after input.
@@ -103,3 +102,4 @@ int main()
 
 //     return 0;
 // }
+// ...................................................................
