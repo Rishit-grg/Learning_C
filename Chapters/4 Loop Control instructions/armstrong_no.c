@@ -1,4 +1,4 @@
-// Program to print out all Armstrong numbers between one and five hundred Program to print out all Armstrong numbers between 1 and 500
+// Program to print out all Armstrong numbers between one and five hundred Program to print out all Armstrong numbers between 1 and 999
 
 #include <stdio.h>
 
@@ -6,7 +6,7 @@ int main()
 {
     int i, o, t, h;
 
-    for (i = 1; i <= 500; i++)
+    for (i = 1; i <= 999; i++)
     {
         h = i / 100;
         t = (i / 10) % 10;
