@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <math.h>
 
-int divi(int a, int div)
+int factorise(int a, int factor)
 {
     
-    if (a % div == 0)
+    if (a % factor == 0)
     {
-        while (a % div == 0)
-        {   a/=div;
-            printf("%d ", div);
+        while (a % factor == 0)
+        {   a/=factor;
+            printf("%d ", factor);
         }
         return a;
     }
@@ -17,7 +17,6 @@ int divi(int a, int div)
         return a;
     }
 }
-
 int main()
 {
     int n, i;
@@ -39,7 +38,7 @@ int main()
     }
     for (i = 3; i <= sqrt(n); i += 2)
     {
-        n = divi(n, i);
+        n = factorise(n, i);
     }
 
     if (n > 2)
