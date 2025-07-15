@@ -32,7 +32,7 @@ int main()
         }
         else if (guess == num)
         {
-            printf("CORRECT!!...You took %d guesses\n", attempts);
+            printf("CORRECT!!....You took %d guesses\n", attempts);
             break;
         }
     }
