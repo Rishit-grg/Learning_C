@@ -1,6 +1,7 @@
+// Function that Multiplies that value iput by the user by 10, hence the name tenx
 #include <stdio.h>
 
-int tenx(int *i)
+int tenx(int* i)
 {
     return *i * 10;
 }
