@@ -1,3 +1,4 @@
+// function that reverses and array[10] passed into it 
 #include <stdio.h>
 
 void reverse(int *ptr)
@@ -16,7 +17,7 @@ void reverse(int *ptr)
 int main() 
 {
     int arr[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-    int *ptr = &arr;
+    int *ptr = arr;   
     reverse(ptr);
 
 // Printing To check
