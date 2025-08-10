@@ -24,18 +24,18 @@ int main()
 int str_to_int(char *num, int length)
 {
     int number = 0;
-    printf("%d\n", number);
+    // printf("%d\n", number);
     for (int i = 1; i <= length; i++)
     {
         if (i == 1)
         {
             number = (int)num[length - i] - 48;
-            printf("%d\n", number);
+            // printf("%d\n", number);
         }
         else if (i > 1 && i < length)
         {
-            number = number + ((int)(num[length - i] - 48) * (int)(round(pow(10, i - 1))));
-            printf("%d\n", number);
+            number = number + ((int)(num[length - i] - 48) * (int)(round(pow(10, i - 1)))); // round bc pow() can return float !!!!!!
+            // printf("%d\n", number);
         }
         else if (i == length)
         {
