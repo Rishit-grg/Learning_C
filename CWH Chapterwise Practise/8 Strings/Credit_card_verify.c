@@ -42,3 +42,4 @@ int validate(char *card_no)
         printf("Card is invalid");
     }
 }
+
